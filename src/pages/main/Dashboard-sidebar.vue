@@ -32,10 +32,3 @@
     </aside>
 </template>
 
-<script>
-
-export default {
-  name: 'DashSideBar'
-
-}
-</script>

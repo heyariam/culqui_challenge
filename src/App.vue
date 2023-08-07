@@ -9,7 +9,6 @@
 import DashboardPanel from './pages/main/Dashboard.vue'
 //import LoginForm from './pages/login/Login.vue'//
 
-
 export default {
   name: 'App',
   components: {

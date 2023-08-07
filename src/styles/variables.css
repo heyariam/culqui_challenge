@@ -1,0 +1,21 @@
+:root {
+	--dk-gray-100: #F8F8F8;
+	--dk-gray-200: #F1F2F4;
+	--dk-gray-300: #E9EAEC; 
+	--dk-gray-400: #A0AEC0; 
+	--dk-gray-500: #FAFAFA; 
+	--dk-gray-600: #687588;
+	--dk-gray-700: #374151;
+	--dk-gray-800: #1F2937;
+	--dk-gray-900: #111827; 
+	--navbar-bg-color: #E9EAEC;
+	--sidebar-bg-color: #E9EAEC;
+	--sidebar-width: 280px;
+	--navebar-height: 96px;
+	--primary-green: #00A19B; 
+	--white: #FFFFFF; 
+	--primary-base: #27A376; 
+	--others-blue: #2F78EE;
+	--alerts-red: #E03137; 
+	--alerts-green: #0CAF60; 
+}
