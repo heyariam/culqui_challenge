@@ -1,19 +1,19 @@
 <template>
   <div>
-    <DashboardPanel />
+    <LoginForm/>
 
   </div>
 </template>
 
 <script>
-import DashboardPanel from './pages/main/Dashboard.vue'
-//import LoginForm from './pages/login/Login.vue'//
+//import DashboardPanel from './pages/main/Dashboard.vue'
+import LoginForm from './pages/login/Login.vue'
 
 export default {
   name: 'App',
   components: {
-    //LoginForm//
-    DashboardPanel
+    LoginForm,
+    //DashboardPanel
   }
 }
 </script>
