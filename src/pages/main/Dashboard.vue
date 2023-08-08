@@ -76,15 +76,11 @@
                             <input class="placeholder:text-slate-400 block bg-white w-full border border-slate-300 rounded-md py-2 pl-3 pr-9 shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1 sm:text-sm" placeholder="Buscar empleado" type="text" name="search"/>
                         </label>
                     </div>
-                    
-                    <div class="icon relative max-w-md w-full">
-                        <div>
-                          
-                        </div>
-                    </div>
                 </div>
-
-
+       
+ 
+        </div>
+                
             </div>
                 <div>
                     <div class="mt-8 bg-white p-4">
@@ -165,10 +161,8 @@
 
 export default {
   name: 'DashboardPanel'
-},
-
+}
 </script>
-
 
 
 <style>
