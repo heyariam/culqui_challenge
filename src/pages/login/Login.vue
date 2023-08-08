@@ -25,15 +25,27 @@
                       <label
                         class="block uppercase text-gray-700 text-xs font-bold mb-2"
                         for="grid-password"
-                        >Correo Electrónico</label
+                        >
+                        <span class="after:content-['*'] after:ml-0.5 after:text-red-500 block text-sm font-medium text-slate-700">
+                          Correo Electrónico
+  </span></label
                       > <input type="email" placeholder= "Ingresa el correo electrónico" v-model="email" />
+                        <p class="mt-2 invisible peer-invalid:visible text-pink-600 text-sm">
+                              Correo o contraseña incorrecta
+                            </p>
                     </div>
                     <div class="relative w-full mb-3">
                       <label
                         class="block uppercase text-gray-700 text-xs font-bold mb-2"
                         for="grid-password"
-                        >Contraseña</label
+                        >
+                        <span class="after:content-['*'] after:ml-0.5 after:text-red-500 block text-sm font-medium text-slate-700">
+                          Contraseña
+  </span></label
                       ><input type="password" placeholder= "Ingresa la contraseña" v-model="password" />
+                      <p class="mt-2 invisible peer-invalid:visible text-pink-600 text-sm">
+                            Correo o contraseña incorrecta
+                          </p>
                     </div>
                       <div class="submit-button">
                         <input type="button" value="Iniciar Sesión">
