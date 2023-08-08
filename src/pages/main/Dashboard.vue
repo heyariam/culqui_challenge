@@ -60,8 +60,8 @@
             </div>
         </div>
     </nav>
-    <main class="bg-grey-lightest">
-        <div class="main-card flex-1 bg-white p-4 shadow rounded-lg md:w-1/2 margin:15px">
+    <main class= "p-16">
+        <div class="main-card flex-1 p-4 shadow rounded-lg">
  
             <div> 
                  <h2 class="text-gray-500 text-lg font-semibold pb-1">Empleados</h2>
@@ -91,8 +91,8 @@
                 <div class="bg-white p-4 rounded-md mt-4">
                     <h2 class="text-gray-500 text-lg font-semibold pb-4">Transacciones</h2>
                     <div class="my-1"></div> <!-- Espacio de separación -->
-                    <div class="bg-gradient-to-r from-cyan-300 to-cyan-500 h-px mb-6"></div> <!-- Línea con gradiente -->
-                    <table class="w-full table-auto text-sm">
+                    <div class="grid-cols-5">
+                    <table class="w-full table-auto text-sm"> 
                         <thead>
                             <tr class="text-sm leading-normal">
                                 <th class="py-2 px-4 bg-grey-lightest font-bold text-sm text-grey-light border-b border-grey-light">Nombre</th>
@@ -139,6 +139,7 @@
                             </tr>
                         </tbody>
                     </table>
+                </div>
                     <!-- Botón "Ver más" para la tabla de Transacciones -->
                     <div class="text-right mt-4">         
                             <button class="bg-cyan-500 hover:bg-cyan-600 text-white font-semibold py-2 px-4 rounded">
