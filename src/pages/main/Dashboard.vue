@@ -78,9 +78,9 @@
                     </div>
                     
                     <div class="icon relative max-w-md w-full">
-                        <select>
-
-                        </select>
+                        <div>
+                          
+                        </div>
                     </div>
                 </div>
 
@@ -149,8 +149,8 @@
                 </div>
                     </div>
      
-       
  
+
         </div>           
     </main>
 </section>
@@ -165,7 +165,8 @@
 
 export default {
   name: 'DashboardPanel'
-}
+},
+
 </script>
 
 
