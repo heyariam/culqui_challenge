@@ -20,13 +20,13 @@
                 <input type="password" id="password" placeholder="Ingresa la contraseña" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mt-1 leading-tight focus:outline-none focus:shadow-outline">
             </div>
 
-            <input type="submit" value="Log In" class="bg-black text-white font-bold text-lg hover:bg-gray-700 p-2 mt-8">
+            <input type="submit" value="Iniciar Sesión" class="bg-black text-white font-bold text-lg hover:bg-gray-700 p-2 mt-8">
         </form>
         <div class="text-center pt-12 pb-12">
             <p>Don't have an account? <a href="register.html" class="underline font-semibold">Register here.</a></p>
         </div>
     </div>
-
+    <Footer />
 </div>
 
 <!-- Image Section -->
@@ -38,10 +38,14 @@
 </template>
 
 <script>
+import Footer from './Footer.vue';
 
-  export default {
+export default {
   name: 'LoginForm',
-}
+  components: {
+    Footer,
+  },
+};
 </script>
 
 
