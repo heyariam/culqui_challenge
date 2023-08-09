@@ -1,19 +1,21 @@
 <template>
   <div>
-    <LoginForm/>
+    <Sideimage/>
 
   </div>
 </template>
 
 <script>
 //import DashboardPanel from './pages/main/Dashboard.vue'
-import LoginForm from './pages/login/Login.vue'
+//import LoginForm from './pages/login/Login.vue'
+import Sideimage from './pages/login/imageside.vue'
 
 export default {
   name: 'App',
   components: {
-    LoginForm,
+    //LoginForm,
     //DashboardPanel
+    Sideimage
   }
 }
 </script>

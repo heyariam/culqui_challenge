@@ -1,10 +1,12 @@
 <template>
+
    <div class="w-full flex flex-wrap">
 
-    <div class="w-1/2 shadow-2xl">
-    <img class="object-cover w-full h-screen hidden md:block" src="../../assets/Onboarding.png">
-</div>
-<!-- Login Section -->
+
+  <div class="w-1/2 shadow-2xl">
+      <img class="object-cover w-full h-screen hidden md:block" src="../../assets/Onboarding.png" alt="lol">
+    </div>
+
 <div class="w-full md:w-1/2 flex flex-col">
 
     <div class="flex flex-col justify-center md:justify-start my-auto pt-8 md:pt-0 px-8 md:px-24 lg:px-32">
@@ -23,13 +25,11 @@
             <input type="submit" value="Iniciar Sesión" class="bg-black text-white font-bold text-lg hover:bg-gray-700 p-2 mt-8">
         </form>
         <div class="text-center pt-12 pb-12">
-            <p>Don't have an account? <a href="register.html" class="underline font-semibold">Register here.</a></p>
+            <p>¿Eres nuevo aquí? <a href="register.html" class="underline font-semibold">Crea una cuenta</a></p>
         </div>
     </div>
     <Footer />
 </div>
-
-<!-- Image Section -->
 
 </div>
 
@@ -40,10 +40,12 @@
 <script>
 import Footer from './Footer.vue';
 
+
 export default {
   name: 'LoginForm',
   components: {
     Footer,
+
   },
 };
 </script>
