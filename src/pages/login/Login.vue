@@ -37,12 +37,8 @@
 <script>
 import Footer from './Footer.vue';
 
-
 export default {
   name: 'LoginForm',
-  components: {
-    Footer,
-  },
   data() {
     return {
       correo: '',
@@ -74,7 +70,6 @@ export default {
     }
   }
 }
-
 </script>
 
 
